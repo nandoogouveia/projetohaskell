@@ -3,7 +3,7 @@
 
 static-dir:     "_env:STATIC_DIR:static"
 host:           "_env:HOST:*4" # any IPv4 host
-port:           "_env:PORT:8080" # NB: The port `yesod devel` uses is distinct from this value. Set the `yesod devel` port from the command line.
+port:           "_env:PORT:443" # NB: The port `yesod devel` uses is distinct from this value. Set the `yesod devel` port from the command line.
 ip-from-header: "_env:IP_FROM_HEADER:false"
 
 # Default behavior: determine the application root from the request headers.
@@ -24,7 +24,7 @@ ip-from-header: "_env:IP_FROM_HEADER:false"
 # See https://github.com/yesodweb/yesod/wiki/Configuration#parsing-numeric-values-as-strings
 
 database:
-  user:     "_env:PGUSER:lovnstbmttdaux"
+  user:     "_env:PGUSER:root"
   password: "_env:PGPASS:92ea3a98f121ed63a2a663c64acc95eb6ae0c8d4ff84de661d288477484c60ef"
   host:     "_env:PGHOST:ec2-23-21-227-73.compute-1.amazonaws.com"
   port:     "_env:PGPORT:5432"
@@ -32,5 +32,5 @@ database:
   database: "_env:PGDATABASE:de46u319ngmu86"
   poolsize: "_env:PGPOOLSIZE:10"
 
-copyright: Insert copyright statement here
+copyright: Be Coach - Mude seu mindset
 #analytics: UA-YOURCODE
