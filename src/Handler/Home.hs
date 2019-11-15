@@ -21,9 +21,9 @@ getHomeR = do
         $(whamletFile "templates/homepage.hamlet")
         $(whamletFile "templates/footer.hamlet")
             
-getAdsR :: Handler TypedContent
-getAdsR = return $ TypedContent "text/plain"
-    $ toContent $(embedFile "static/ads.txt")
+--getAdsR :: Handler TypedContent
+--getAdsR = return $ TypedContent "text/plain"
+--    $ toContent $(embedFile "static/ads.txt")
     
 getPostsR :: Handler Html
 getPostsR = do
