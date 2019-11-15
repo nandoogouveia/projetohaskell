@@ -1,0 +1,11 @@
+<nav class="menu">
+    <ul>
+        <li>
+            <a href=@{HomeR} class="link">
+                HOME
+        <li>
+            <a href=@{PostsR} class="link">
+                POSTS
+        <li>
+            <a href="#" class="link">
+                CONTATO
