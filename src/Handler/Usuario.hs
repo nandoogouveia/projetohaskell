@@ -7,6 +7,7 @@
 module Handler.Usuario where
 
 import Import
+import Form.MForm
 import Text.Lucius
 import Text.Julius
 --import Network.HTTP.Types.Status
