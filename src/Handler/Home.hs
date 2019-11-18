@@ -73,7 +73,7 @@ getHomeR = do
                         <div>
                             convidado
             
-            <img src=@{StaticR img_citeg_jpg}>
+            <img src=@{StaticR img_citeg_jpg} alt="citeg">
             
             <button class="btn btn-danger" onclick="ola()">
                 OK
