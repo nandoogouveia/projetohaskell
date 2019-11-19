@@ -34,9 +34,7 @@ import Network.Wai.Middleware.RequestLogger (Destination (Logger),
                                              mkRequestLogger, outputFormat)
 import System.Log.FastLogger                (defaultBufSize, newStdoutLoggerSet,
                                              toLogStr)
-import      Network.Wai.Handler.Warp (from warp-3.2.13)
-import      Network.Wai.Handler.Warp.IO
-import      Network.Wai.Handler.Warp.File
+
 -- Import all relevant handler modules here.
 -- Don't forget to add new modules to your cabal file!
 import Handler.Common
